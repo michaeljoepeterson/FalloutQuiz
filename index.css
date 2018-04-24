@@ -1,0 +1,70 @@
+.center{
+  text-align: center;
+}
+html{
+  height: 100%;
+}
+
+body{
+  font-family: 'Carme', sans-serif;
+  color: rgb(29,222,143);
+  margin-left: 0;
+  margin-right: 0;
+  background: url("assets/pipBackground.png");
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.defaultButton{
+  background: none;
+  border: 1px rgb(29,222,143) solid;
+  color: rgb(29,222,143);
+}
+.choice{
+  min-height: 8vh;
+  min-width: 100%;
+}
+.choice::first-letter{
+  font-size: 20px;
+}
+.skills{
+  display: inline-block;
+}
+.beginButton{
+  min-width: 20%;
+  min-height: 5vh;
+}
+.defaultButton:hover{
+  cursor:pointer;
+  background-color: rgb(29,222,143);
+  color: white;
+}
+main{
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1024px){
+
+  .textBackground{
+    background-color: black;
+  }
+  .defaultButton{
+    background-color: black;
+  }
+  main{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 823px){
+
+  .textBackground{
+    background-color: black;
+  }
+  .defaultButton{
+    background-color: black;
+  }
+  main{
+    margin-top: 80px;
+  }
+}
